@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TourFácil</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">
+          TourFácil
+        </a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Sobre</a></li>
+          <li><a href="#grid-one">Pacotes em alta</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#grid-two">Pacotes</a></li>
+          <li><a href="#pricing">Preços</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Viajar nunca foi tão fácil com a TourFácil!</h2>
+        <p class="blur-background">
+          Aqui, sua próxima aventura de lazer está a poucos cliques. Aproveite nossos pacotes promocionais e descubra os melhores destinos turísticos do Brasil com preços acessíveis e sem complicações. Viaje tranquilo e deixe que a TourFácil cuide de tudo para você!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Quem somos e o nosso objetivo</h2>
+      <p>
+        Na TourFácil, somos apaixonados por conectar você aos melhores destinos turísticos do Brasil. Com anos de experiência no mercado, nossa missão é simplificar o planejamento de suas viagens de lazer, oferecendo pacotes promocionais que combinam conforto, economia e experiências inesquecíveis. 
+      </p>
+      <p>
+        Do litoral paradisíaco às cidades históricas, facilitamos cada etapa da sua jornada, com uma plataforma intuitiva, suporte dedicado e opções que cabem no seu bolso. Viajar pelo Brasil nunca foi tão fácil – embarque nessa com a TourFácil e descubra o país de uma forma única!
+      </p>
+    </div>
+  </section>
+  
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Pacotes em alta</h2>
+      <p class="grid-description">Confira os pacotes promocionais em alta</p>
+
+      <div class="grid">
+        <article>
+          <h3>Encantos do Nordeste</h3>
+          <p class="blur-background" >
+            Viaje para as praias paradisíacas de Porto de Galinhas, Jericoacoara e Morro de São Paulo. Este pacote inclui passagens aéreas, hospedagem em resorts à beira-mar e passeios guiados pelas atrações mais famosas da região. Perfeito para quem quer relaxar e aproveitar o calor do Nordeste com todo o conforto.</p>
+        </article>
+        <article>
+          <h3>Rota das Serras Gaúchas</h3>
+          <p class="blur-background">
+            Desfrute de um passeio pelos encantos de Gramado e Canela, com visitas a vinícolas renomadas e degustação de vinhos exclusivos. Hospedagem em pousadas aconchegantes, transporte e ingressos para os principais pontos turísticos estão incluídos. Ideal para quem busca uma viagem romântica ou em família, cercada pela natureza e cultura local.
+          </p>
+        </article>
+        <article>
+          <h3>Aventura Amazônica</h3>
+          <p class="blur-background">
+            Este pacote oferece uma imersão na biodiversidade da Amazônia, com passeios de barco pelos rios, trilhas ecológicas e visitas a comunidades ribeirinhas. Inclui passagens aéreas, hospedagem em lodges ecológicos e guias especializados. Perfeito para os aventureiros que querem explorar a riqueza natural do Brasil com segurança e emoção.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria</h2>
+      <p class="grid-description">Confira a beleza dos pontos turísticos</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="https://cdn.theculturetrip.com/wp-content/uploads/2018/02/shutterstock_401124559.jpg" width="400" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://www.ceara.gov.br/wp-content/uploads/2019/05/FOTO-ASCON-SETUR_JERICOACOARA_4.jpg" width="400" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://a.cdn-hotels.com/gdcs/production181/d941/cc6eda7d-e831-4c04-972d-5e816210f48d.jpg" width="400" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://blog.penatrilha.com.br/wp-content/uploads/2018/01/serra-gaucha.jpg" width="400" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://rotasturisticas.org/imagens/destinos/br/large/IMGD10-433-3987-gramado.jpg" width="400" />
+        </div>
+        <div class="gallery-img">
+          <img src="https://vivereviajar.com/wp-content/uploads/2018/07/06-768x512.jpg" width="400" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="grid-two" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Pacotes</h2>
+      <p class="grid-description">Pacotes de viagens</p>
+
+      <div class="grid">
+        <article>
+          <h3>Pacote Sol e Mar em Maceió</h3>
+          <p class="blur-background">
+            Aproveite 5 dias e 4 noites em Maceió, com passagens aéreas ida e volta, hospedagem em um hotel 4 estrelas à beira-mar com café da manhã incluso, e passeios para as famosas praias de Pajuçara, Ponta Verde e Maragogi. O pacote também inclui traslado entre aeroporto e hotel, oferecendo conforto e praticidade.
+          </p>
+        </article>
+        <article>
+          <h3>Pacote Campos do Jordão</h3>
+          <p class="blur-background"> 
+            Desfrute de 4 dias e 3 noites em Campos do Jordão, com passagens aéreas ou rodoviárias ida e volta, hospedagem em uma pousada romântica com café da manhã e jantar inclusos, além de passeios para o Morro do Elefante, Horto Florestal e uma deliciosa degustação de vinhos em uma adega local.
+          </p>
+        </article>
+        <article>
+          <h3>Pacote Chapada Diamantina</h3>
+          <p class="blur-background">
+            Explore a Chapada Diamantina por 6 dias e 5 noites com passagens aéreas ida e volta, hospedagem em uma pousada ecológica e trilhas guiadas para atrações incríveis como a Cachoeira da Fumaça e a Gruta da Pratinha. O pacote inclui traslado entre aeroporto e hotel, além de seguro viagem, garantindo uma experiência segura e completa.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Preços</h2>
+      <p>
+        Confira abaixo os valores promocionais dos nossos pacotes de viagem para os destinos mais incríveis do Brasil! Todos os pacotes incluem passagens aéreas, hospedagem e passeios guiados, oferecendo a melhor experiência de viagem com todo o conforto e segurança que você merece. Aproveite nossos descontos especiais para reservas antecipadas e viagens em grupo. Escolha o destino dos seus sonhos e comece a planejar agora!
+      </p>
+
+      <div class="responsive-table">
+        <table>
+          <caption>Tabela de preços</caption>
+
+          <thead>
+            <tr>
+              <th>Destino</th>
+              <th>Duração</th>
+              <th>Preço</th>
+              <th>Desconto</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Maceió e Alagoas</td>
+              <td>5 dias e 4 noites</td>
+              <td>R$ 1.999,00 por pessoa</td>
+              <td>20% para reservas feitas até o final do mês</td>
+            </tr>
+            <tr>
+              <td>Campos do Jordão e São Paulo</td>
+              <td>4 dias e 3 noites</td>
+              <td>R$ 1.499,00 por casal</td>
+              <td>15% para pacotes adquiridos em datas comemorativas</td>
+            </tr>
+            <tr>
+              <td>Chapada Diamantina e Bahia</td>
+              <td>6 dias e 5 noites</td>
+              <td>R$ 2.299,00 por pessoa</td>
+              <td>10% para grupos a partir de 4 pessoas</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Quer saber mais ?</h2>
+        <p class="blur-background">
+          Preencha o formulário abaixo e receba todas as informações diretamente no seu e-mail. Nossa equipe entrará em contato com você para tirar dúvidas, oferecer consultoria personalizada e garantir que sua próxima viagem seja inesquecível.
+        </p>
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contato</legend>
+
+          <div class="form-group">
+            <label for="first-name">Primeiro nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobre nome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Seu sobre nome">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Seu e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar</button>
+          </div>
+        </fieldset>
+      </div>  
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/m4th3eusss/">Feito por Matheus Sousa</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
